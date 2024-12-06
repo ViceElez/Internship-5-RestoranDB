@@ -498,21 +498,17 @@ insert into Ratings (RatingsId, UserId, RestaurantId, FoodId, Rating, Comment, R
 insert into Ratings (RatingsId, UserId, RestaurantId, FoodId, Rating, Comment, RatingDate) values (498, '326', '467', '90', 3.18, 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.', '4/10/2024');
 insert into Ratings (RatingsId, UserId, RestaurantId, FoodId, Rating, Comment, RatingDate) values (499, '28', '251', '54', 2.15, 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.', '11/12/2024');
 insert into Ratings (RatingsId, UserId, RestaurantId, FoodId, Rating, Comment, RatingDate) values (500, '382', '75', '144', 4.7, 'Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.', '12/25/2023');
-INSERT INTO Ratings (RatingsId, UserId, RestaurantId, FoodId, Rating, Comment, RatingDate)
-VALUES 
-(501, 501, 521, 511, 4, 'Great dessert!', '2023-12-05'),
-(502, 502, 522, 512, 5, 'Delicious tiramisu!', '2023-12-04'),
-(503, 503, 523, 513, 3, 'Fruit salad was ok.', '2023-12-03'),
-(504, 504, 524, 514, 5, 'Amazing cheesecake!', '2023-12-02'),
-(505, 505, 525, 515, 4, 'Good apple pie.', '2023-12-01');
--- Inserting ratings for Rijeka restaurants (with IDs starting from 506)
-INSERT INTO Ratings (RatingsId, UserId, RestaurantId, FoodId, Rating, Comment, RatingDate)
-VALUES
-(506, 501, 526, 511, 4, 'Great food, but a bit too salty', '2023-11-15'),
-(507, 502, 527, 512, 5, 'Excellent atmosphere and food', '2023-12-10'),
-(508, 503, 528, 513, 3, 'Good seafood, but service can improve', '2023-12-05'),
-(509, 504, 529, 514, 5, 'Best coastal dining in Rijeka', '2023-12-08'),
-(510, 505, 530, 515, 4, 'Nice place, but the wait time was long', '2023-12-12');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (501, 501, 521, 511, 4, 'Great dessert!', '2023-12-05');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (502, 502, 522, 512, 5, 'Delicious tiramisu!', '2023-12-04');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (503, 503, 523, 513, 3, 'Fruit salad was ok.', '2023-12-03');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (504, 504, 524, 514, 5, 'Amazing cheesecake!', '2023-12-02');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (505, 505, 525, 515, 4, 'Good apple pie.', '2023-12-01');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values(506, 501, 526, 511, 4, 'Great food, but a bit too salty', '2023-11-15');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (507, 502, 527, 512, 5, 'Excellent atmosphere and food', '2023-12-10');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (508, 503, 528, 513, 3, 'Good seafood, but service can improve', '2023-12-05');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (509, 504, 529, 514, 5, 'Best coastal dining in Rijeka', '2023-12-08');
+insert into Ratings (ratingsid, userid, restaurantid, foodid, rating, comment, ratingdate) values (510, 505, 530, 515, 4, 'Nice place, but the wait time was long', '2023-12-12');
+
 
 
 

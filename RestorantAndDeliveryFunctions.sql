@@ -4,11 +4,11 @@ WHERE Price < 15   -- Prvi upit
 
 SELECT OrdersId, TotalAmount, OrderDate 
 FROM Orders 
-WHERE TotalAmount > 50 AND EXTRACT(YEAR FROM OrderDate) = 2023 -- Drugi upit
+WHERE TotalAmount > 50 AND EXTRACT(YEAR FROM OrderDate) = 2023      -- Drugi upit
 
 SELECT Name, SuccessfulDeliveries
 FROM Staff
-WHERE Roles = 'Dostavljac' AND SuccessfulDeliveries > 100;    --Treci upit
+WHERE Roles = 'Dostavljac' AND SuccessfulDeliveries > 100    --Treci upit
 
 SELECT s.Name AS StaffName, r.Name AS RestaurantName
 FROM Staff s
@@ -57,7 +57,7 @@ WHERE FoodId NOT IN (
     FROM OrderItems oi
     JOIN Orders o ON oi.OrderId = o.OrdersId						
     WHERE o.OrderDate >= NOW() - INTERVAL '2 years'		--Deseti upit 
-);
+)
 
 
 
@@ -66,7 +66,7 @@ SET LoyaltyCard = 'Ne'
 WHERE UserId NOT IN (
     SELECT DISTINCT UserId 
     FROM Orders
-    WHERE OrderDate >= NOW() - INTERVAL '1 year')	--Jedanesti upit
+    WHERE OrderDate >= NOW() - INTERVAL '1 year')			--Jedanesti upit
 	
 
 

@@ -503,11 +503,10 @@ insert into Staff (StaffId, RestaurantId, Name, Age, DriversLicence, Roles, Succ
 insert into Staff (StaffId, RestaurantId, Name, Age, DriversLicence, Roles, SuccessfulDeliveries) values (503, '503', 'Josip', 50, 'Da', 'Kuhar', 0);
 insert into Staff (StaffId, RestaurantId, Name, Age, DriversLicence, Roles, SuccessfulDeliveries) values (504, '504', 'Sime', 50, 'Da', 'Kuhar', 0);
 insert into Staff (StaffId, RestaurantId, Name, Age, DriversLicence, Roles, SuccessfulDeliveries) values (505, '505', 'Jozo', 50, 'Da', 'Kuhar', 0);
-INSERT INTO Staff (StaffId, RestaurantId, Name, Age, Roles, DriversLicence, SuccessfulDeliveries)
-VALUES 
-(506, 521, 'Janko', 30, 'Dostavljac', 'Da', 120),
-(507, 522, 'Marko', 25, 'Dostavljac', 'Da', 150),
-(508, 523, 'Ivana', 40, 'Kuhar', 'Ne', 0),
-(509, 524, 'Maja', 35, 'Konobar', 'Ne', 0),
-(510, 525, 'Luka', 28, 'Dostavljac', 'Da', 130);
+insert into Staff (staffid, restaurantid, name, age, roles, driverslicence, successfuldeliveries) values(506, 521, 'Janko', 30, 'Dostavljac', 'Da', 120);
+insert into Staff (staffid, restaurantid, name, age, roles, driverslicence, successfuldeliveries) values(507, 522, 'Marko', 25, 'Dostavljac', 'Da', 150);
+insert into Staff (staffid, restaurantid, name, age, roles, driverslicence, successfuldeliveries) values(508, 523, 'Ivana', 40, 'Kuhar', 'Ne', 0);
+insert into Staff (staffid, restaurantid, name, age, roles, driverslicence, successfuldeliveries) values(509, 524, 'Maja', 35, 'Konobar', 'Ne', 0);
+insert into Staff (staffid, restaurantid, name, age, roles, driverslicence, successfuldeliveries) values(510, 525, 'Luka', 28, 'Dostavljac', 'Da', 130);
+
 

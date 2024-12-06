@@ -508,13 +508,12 @@ insert into foods (foodid, restaurantid, name, category, price, calories, availa
 insert into foods (foodid, restaurantid, name, category, price, calories, availability) values (508, 520, 'Strawberry Tart', 'Desert', 7.00, 280, 'Dostupno');
 insert into foods (foodid, restaurantid, name, category, price, calories, availability) values (509, 520, 'Lemon Meringue Pie', 'Desert', 6.00, 270, 'Dostupno');
 insert into foods (foodid, restaurantid, name, category, price, calories, availability) values (510, 520, 'Cheesecake', 'Desert', 9.00, 350, 'Dostupno');
-INSERT INTO Foods (FoodId, RestaurantId, Name, Category, Price, Calories, Availability)
-VALUES 
-(511, 521, 'Chocolate Cake', 'Desert', 7.50, 300, 'Dostupno'),
-(512, 522, 'Tiramisu', 'Desert', 6.00, 250, 'Dostupno'),
-(513, 523, 'Fruit Salad', 'Desert', 5.00, 150, 'Dostupno'),
-(514, 524, 'Cheese Cake', 'Desert', 8.00, 400, 'Dostupno'),
-(515, 525, 'Apple Pie', 'Desert', 5.50, 350, 'Dostupno');
+insert into Foods (FoodId, RestaurantId, Name, Category, Price, Calories, Availability) values (511, 521, 'Chocolate Cake', 'Desert', 7.50, 300, 'Dostupno');
+insert into Foods (FoodId, RestaurantId, Name, Category, Price, Calories, Availability) values (512, 522, 'Tiramisu', 'Desert', 6.00, 250, 'Dostupno');
+insert into Foods (FoodId, RestaurantId, Name, Category, Price, Calories, Availability) values (513, 523, 'Fruit Salad', 'Desert', 5.00, 150, 'Dostupno');
+insert into Foods (FoodId, RestaurantId, Name, Category, Price, Calories, Availability) values (514, 524, 'Cheese Cake', 'Desert', 8.00, 400, 'Dostupno');
+insert into Foods (FoodId, RestaurantId, Name, Category, Price, Calories, Availability) values (515, 525, 'Apple Pie', 'Desert', 5.50, 350, 'Dostupno');
+
 
 
 

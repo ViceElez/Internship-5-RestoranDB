@@ -522,13 +522,12 @@ insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, orde
 insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (522, 203, 520, 45.00, '2023-12-05', 'Restoran', '789 Pine Road', 'Special treat!');
 insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (523, 204, 520, 50.00, '2023-12-10', 'Vanka', '101 Maple Lane', 'Birthday delivery!');
 insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (524, 205, 520, 40.00, '2023-12-12', 'Vanka', '99 Birch Street', 'Christmas party!');
-INSERT INTO Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder)
-VALUES 
-(525, 501, 521, 30.00, '2023-12-05', 'Vanka', 'Address 1', 'No reminder'),
-(526, 502, 522, 50.00, '2023-12-04', 'Restoran', 'Address 2', 'Please be quick'),
-(527, 503, 523, 20.00, '2023-12-03', 'Vanka', 'Address 3', 'No reminder'),
-(528, 504, 524, 45.00, '2023-12-02', 'Restoran', 'Address 4', 'Remember dessert'),
-(529, 505, 525, 25.00, '2023-12-01', 'Vanka', 'Address 5', 'No reminder');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (525, 501, 521, 30.00, '2023-12-05', 'Vanka', 'Address 1', 'No reminder');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (526, 502, 522, 50.00, '2023-12-04', 'Restoran', 'Address 2', 'Please be quick');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (527, 503, 523, 20.00, '2023-12-03', 'Vanka', 'Address 3', 'No reminder');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (528, 504, 524, 45.00, '2023-12-02', 'Restoran', 'Address 4', 'Remember dessert');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (529, 505, 525, 25.00, '2023-12-01', 'Vanka', 'Address 5', 'No reminder');
+
 
 
 

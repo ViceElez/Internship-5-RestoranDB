@@ -515,24 +515,20 @@ insert into Restaurants (RestaurantId, Name, City, Capacity, OpeningHours, Closi
 insert into Restaurants (RestaurantId, Name, City, Capacity, OpeningHours, ClosingHours) values (515, 'Cevapi Corner', 'Rijeka', 20, '10:00:00', '20:00:00');
 insert into Restaurants (RestaurantId, Name, City, Capacity, OpeningHours, ClosingHours) values (516, 'Marmos', 'Split', 50, '07:30:00', '22:30:00');
 insert into Restaurants (RestaurantId, Name, City, Capacity, OpeningHours, ClosingHours) values (517, 'Volat', 'Split', 50, '07:30:00', '22:30:00');
-insert into restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values (518, 'sweet bites', 'zagreb', 30, '08:00:00', '22:00:00');
-insert into restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values (519, 'dessert heaven', 'split', 40, '09:00:00', '23:00:00');
-insert into restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values (520, 'Bistro Cafe', 'Zagreb', 50, '08:00 AM', '10:00 PM');
-INSERT INTO Restaurants (RestaurantId, Name, City, Capacity, OpeningHours, ClosingHours)
-VALUES 
-(521, 'Restoran A', 'Zagreb', 50, '08:00', '22:00'),
-(522, 'Restoran B', 'Zagreb', 60, '09:00', '23:00'),
-(523, 'Restoran C', 'Rijeka', 40, '10:00', '21:00'),
-(524, 'Restoran D', 'Zagreb', 30, '07:00', '20:00'),
-(525, 'Restoran E', 'Rijeka', 70, '11:00', '00:00');
--- Inserting restaurants in Rijeka (with IDs starting from 526)
-INSERT INTO Restaurants (RestaurantId, Name, City, Capacity, OpeningHours, ClosingHours) 
-VALUES
-(526, 'Rijeka Bistro', 'Rijeka', 50, '08:00:00', '23:00:00'),
-(527, 'The Seaside Grill', 'Rijeka', 70, '10:00:00', '22:00:00'),
-(528, 'Rijeka Seafood', 'Rijeka', 40, '09:00:00', '21:00:00'),
-(529, 'Coastal Dining', 'Rijeka', 60, '07:00:00', '00:00:00'),
-(530, 'The Adriatic', 'Rijeka', 80, '12:00:00', '23:30:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values (518, 'Sweet bites', 'Zagreb', 30, '08:00:00', '22:00:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values (519, 'Dessert heaven','Split', 40, '09:00:00', '23:00:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values (520, 'Bistro Cafe', 'Zagreb', 50, '08:00 AM', '10:00 PM');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(521, 'Restoran A', 'Zagreb', 50, '08:00', '22:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(522, 'Restoran B', 'Zagreb', 60, '09:00', '23:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(523, 'Restoran C', 'Rijeka', 40, '10:00', '21:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(524, 'Restoran D', 'Zagreb', 30, '07:00', '20:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(525, 'Restoran E', 'Rijeka', 70, '11:00', '00:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(526, 'Rijeka Bistro', 'Rijeka', 50, '08:00:00', '23:00:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(527, 'The Seaside Grill', 'Rijeka', 70, '10:00:00', '22:00:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(528, 'Rijeka Seafood', 'Rijeka', 40, '09:00:00', '21:00:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(529, 'Coastal Dining', 'Rijeka', 60, '07:00:00', '00:00:00');
+insert into Restaurants (restaurantid, name, city, capacity, openinghours, closinghours) values(530, 'The Adriatic', 'Rijeka', 80, '12:00:00', '23:30:00');
+
 
 
 

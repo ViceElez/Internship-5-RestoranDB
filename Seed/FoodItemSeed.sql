@@ -513,13 +513,11 @@ insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (
 insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (513, 522, 508, 1, 7.00);
 insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (514, 523, 509, 2, 6.00);
 insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (515, 524, 510, 1, 9.00);
-INSERT INTO OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price)
-VALUES 
-(516, 525, 511, 1, 7.50),
-(517, 526, 512, 2, 6.00),
-(518, 527, 513, 3, 5.00),
-(519, 528, 514, 1, 8.00),
-(520, 529, 515, 2, 5.50);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (516, 525, 511, 1, 7.50);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (517, 526, 512, 2, 6.00);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (518, 527, 513, 3, 5.00);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (519, 528, 514, 1, 8.00);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (520, 529, 515, 2, 5.50);
 
 
 
