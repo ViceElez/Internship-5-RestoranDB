@@ -498,3 +498,11 @@ insert into Users (UserId, FirstName, LastName, Address, OrdersMade, MoneySpent,
 insert into Users (UserId, FirstName, LastName, Address, OrdersMade, MoneySpent, LoyaltyCard) values (498, 'Freddie', 'Revey', '61379 Di Loreto Crossing', 41, 1240.7, 'Da');
 insert into Users (UserId, FirstName, LastName, Address, OrdersMade, MoneySpent, LoyaltyCard) values (499, 'Andreas', 'Kesterton', '476 Havey Hill', 41, 1344.68, 'Ne');
 insert into Users (UserId, FirstName, LastName, Address, OrdersMade, MoneySpent, LoyaltyCard) values (500, 'Symon', 'Wallege', '62 Russell Court', 93, 917.87, 'Ne');
+INSERT INTO Users (UserId, FirstName, LastName, Address, OrdersMade, MoneySpent, LoyaltyCard)
+VALUES 
+(501, 'Ivan', 'Markovic', 'Zagreb, Croatia', 5, 150.00, 'Ne'),
+(502, 'Ana', 'Horvat', 'Split, Croatia', 20, 800.00, 'Da'),
+(503, 'Maja', 'Mikic', 'Zadar, Croatia', 12, 350.00, 'Ne'),
+(504, 'Luka', 'Maric', 'Zagreb, Croatia', 30, 1200.00, 'Da'),
+(505, 'Petra', 'Marelic', 'Osijek, Croatia', 18, 600.00, 'Ne');
+

@@ -498,3 +498,31 @@ insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (
 insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (498, '277', '280', 90, 132);
 insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (499, '24', '166', 17, 301);
 insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (500, '31', '96', 16, 76);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (501, '501', '96', 16, 76);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (502, '502', '96', 16, 76);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (503, '503', '96', 16, 76);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (504, '504', '96', 16, 76);
+insert into OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price) values (505, '505', '96', 16, 76);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (506, 515, 501, 11, 8.50);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (507, 515, 503, 12, 9.00);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (508, 516, 502, 12, 7.00);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (509, 517, 504, 66, 7.50);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (510, 518, 505, 55, 5.00);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (511, 520, 506, 2, 8.50);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (512, 521, 507, 3, 6.50);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (513, 522, 508, 1, 7.00);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (514, 523, 509, 2, 6.00);
+insert into orderitems (orderitemsid, orderid, foodid, quantity, price) values (515, 524, 510, 1, 9.00);
+INSERT INTO OrderItems (OrderItemsId, OrderId, FoodId, Quantity, Price)
+VALUES 
+(516, 525, 511, 1, 7.50),
+(517, 526, 512, 2, 6.00),
+(518, 527, 513, 3, 5.00),
+(519, 528, 514, 1, 8.00),
+(520, 529, 515, 2, 5.50);
+
+
+
+
+
+

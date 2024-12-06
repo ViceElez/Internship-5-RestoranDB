@@ -498,3 +498,37 @@ insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, Orde
 insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (498, '130', '395', 23.57, '6/22/2012', 'Vanka', '1240 Roxbury Plaza', 'Morbi a ipsum.');
 insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (499, '358', '360', 62.49, '10/29/2011', 'Vanka', '459 Rusk Hill', 'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.');
 insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (500, '297', '341', 39.16, '5/14/2002', 'Restoran', '35 Oxford Terrace', 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (501, '297', '506', 99.16, '5/14/2002', 'Restoran', '35 Oxford Terrace', 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (502, '297', '507', 11.16, '5/14/2002', 'Restoran', '35 Oxford Terrace', 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (503, '297', '508', 120.16, '5/14/2002', 'Restoran', '35 Oxford Terrace', 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (504, '297', '509', 400.16, '5/14/2002', 'Restoran', '35 Oxford Terrace', 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (505, '297', '510', 320, '5/14/2002', 'Restoran', '35 Oxford Terrace', 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (506, 101, 511, 55.50, '2023-03-15', 'Restoran', '1 Dalmatian Street', 'Enjoy your meal!');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (507, 102, 512, 42.20, '2023-05-10', 'Restoran', '2 Adriatic Avenue', 'Thanks for visiting!');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (508, 103, 511, 65.00, '2023-06-20', 'Vanka', '10 Green Terrace', 'Delivery in 30 minutes.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (509, 104, 514, 25.00, '2023-07-25', 'Restoran', '7 Pearl Plaza', 'We hope to see you again!');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (510, 105, 513, 33.00, '2023-01-05', 'Restoran', '5 Olive Grove', 'Enjoy your food!');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (511, 106, 512, 75.80, '2023-12-12', 'Vanka', '8 Pine Street', 'Special occasion delivery.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (512, '297', '510', 320, '5/14/2002', 'Restoran', '35 Oxford Terrace', 'Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (513, 106, 516, 75.80, '2023-12-26', 'Vanka', '6 Ristovska', 'Special occasion delivery.');
+insert into Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder) values (514, 106, 517, 75.80, '2023-12-12', 'Vanka', '7 Svaciceva', '');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (515, 301, 518, 30.00, '2023-12-01', 'Restoran', '123 apple st.', 'enjoy your dessert!');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (516, 302, 518, 35.00, '2023-12-02', 'Restoran', '456 banana st.', 'special gift delivery');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (517, 303, 518, 45.00, '2023-12-03', 'Restoran', '789 cherry st.', 'thank you for ordering!');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (518, 304, 519, 25.00, '2023-12-10', 'Restoran', '111 melon ave.', 'enjoy your pie!');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (519, 305, 519, 20.00, '2023-12-12', 'Vanka', '222 peach street', 'bon appétit!');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (520, 201, 520, 35.00, '2023-12-01', 'Vanka', '123 Elm Street', 'Enjoy your meal!');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (521, 202, 520, 30.00, '2023-12-02', 'Restoran', '456 Oak Avenue', 'Have a great day!');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (522, 203, 520, 45.00, '2023-12-05', 'Restoran', '789 Pine Road', 'Special treat!');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (523, 204, 520, 50.00, '2023-12-10', 'Vanka', '101 Maple Lane', 'Birthday delivery!');
+insert into orders (ordersid, userid, restaurantid, totalamount, orderdate, ordertype, deliveryaddress, userreminder) values (524, 205, 520, 40.00, '2023-12-12', 'Vanka', '99 Birch Street', 'Christmas party!');
+INSERT INTO Orders (OrdersId, UserId, RestaurantId, TotalAmount, OrderDate, OrderType, DeliveryAddress, UserReminder)
+VALUES 
+(525, 501, 521, 30.00, '2023-12-05', 'Vanka', 'Address 1', 'No reminder'),
+(526, 502, 522, 50.00, '2023-12-04', 'Restoran', 'Address 2', 'Please be quick'),
+(527, 503, 523, 20.00, '2023-12-03', 'Vanka', 'Address 3', 'No reminder'),
+(528, 504, 524, 45.00, '2023-12-02', 'Restoran', 'Address 4', 'Remember dessert'),
+(529, 505, 525, 25.00, '2023-12-01', 'Vanka', 'Address 5', 'No reminder');
+
+
+

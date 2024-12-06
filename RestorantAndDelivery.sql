@@ -96,6 +96,9 @@ ALTER TABLE Staff
 	ADD CONSTRAINT AgePositive CHECK(Age>0)
 
 ALTER TABLE Staff
+	ADD COLUMN SuccessfulDeliveries INT
+
+ALTER TABLE Staff
   DROP COLUMN Roles
 
 ALTER TABLE Staff
@@ -126,3 +129,11 @@ CREATE TABLE Ratings (
     Comment VARCHAR(500),
     RatingDate DATE
 )
+
+ALTER TABLE Ratings
+    DROP CONSTRAINT ratings_foodid_fkey;
+
+ALTER TABLE Ratings
+    ADD CONSTRAINT ratings_foodid_fkey
+    FOREIGN KEY (FoodId) REFERENCES Foods(FoodId) ON DELETE CASCADE
+
